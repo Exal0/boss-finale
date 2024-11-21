@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header-style">
+
+    </header>
+    <main>
+
+        <div id="container"></div>
+        <form action="/submit" method="post" id="infoUser">
+            <label for="nom">Nom de la promos:</label>
+            <input type="text" id="name" name="nom" required>
+
+            <label for="Eleve">Nombre d'eleve</label>
+            <input type="Number" id="email" name="email" required>
+
+            <label for="debut"> debut de la formation</label>
+            <input type="date" id="debut" name="debut">
+
+            <label for="fin">fin de la formation</label>
+            <input type="date" id="fin" name="fin">
+
+            <button type="submit">valider</button>
+        </form>
+        <section>
+            
+            <div id="promosContainer">
+               
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
